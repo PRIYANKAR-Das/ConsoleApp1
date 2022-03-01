@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Pass</StartupObject>
+    <StartupObject>ConsoleApp1.Array1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array1.cs" />
     <Compile Include="calculator.cs" />
     <Compile Include="Pass.cs" />
     <Compile Include="Program.cs" />
