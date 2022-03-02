@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Array1</StartupObject>
+    <StartupObject>ConsoleApp1.Jagged</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Array1.cs" />
     <Compile Include="calculator.cs" />
+    <Compile Include="Jagged.cs" />
     <Compile Include="Pass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
