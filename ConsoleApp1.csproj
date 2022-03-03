@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Methods</StartupObject>
+    <StartupObject>ConsoleApp1.DataStructures</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Array1.cs" />
     <Compile Include="calculator.cs" />
+    <Compile Include="DataStructures.cs" />
     <Compile Include="Jagged.cs" />
     <Compile Include="Jagged2D.cs" />
     <Compile Include="Methods.cs" />
