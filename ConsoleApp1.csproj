@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DataStructures</StartupObject>
+    <StartupObject>ConsoleApp1.NullableTypes</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Jagged.cs" />
     <Compile Include="Jagged2D.cs" />
     <Compile Include="Methods.cs" />
+    <Compile Include="NullableTypes.cs" />
     <Compile Include="ParamArray.cs" />
     <Compile Include="Pass.cs" />
     <Compile Include="PassArray.cs" />
