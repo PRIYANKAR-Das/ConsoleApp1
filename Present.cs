@@ -32,13 +32,14 @@ namespace ConsoleApp1
             Console.WriteLine(num5);
             Console.ReadKey();
             */
+            
 
             // null-coalescing operator ??
 
             /*
-            int? num6 = 1;
-            int? num7 = 2;
-            int? num8 = 3;
+            int? num6 = null;
+            int? num7 = null;
+            int? num8 = null;
 
             int? num9 = num6 ?? num7 ?? num8;
             Console.WriteLine(num9);
@@ -68,19 +69,21 @@ namespace ConsoleApp1
 
             Present obj = new Present();
 
-            Console.WriteLine(obj.num11);
+            Console.WriteLine(obj.num11); // num11 is int
             Console.ReadKey();
 
-            Console.WriteLine(obj.num10.HasValue);
+            Console.WriteLine(obj.num10.HasValue); // num10 is Nullable<int>
 
             Console.ReadKey();
             */
+            
 
             // Why use nullable ? Real-world example
             // Suppose we want to create a voting app
             // We can easily represent who voted yes and who voted no using bool
             // But how can we represent who did not give any vote ?
 
+            /*
             Console.WriteLine("Press 1 for Yes");
             Console.WriteLine("Press 2 for No");
             Console.WriteLine("Press any other for Neutral");
@@ -133,6 +136,7 @@ namespace ConsoleApp1
             Console.WriteLine("Yes: " + totalYes);
             Console.WriteLine("No: " + totalNo);
             Console.WriteLine("Neutral: " + totalNeutral);
+            */
 
             Console.ReadKey();
         }
