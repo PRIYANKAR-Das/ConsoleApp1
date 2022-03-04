@@ -33,14 +33,15 @@ namespace ConsoleApp1
             Console.ReadKey();
             */
             
+            
 
             // null-coalescing operator ??
 
             /*
             int? num6 = null;
             int? num7 = null;
-            int? num8 = null;
-
+            int? num8 = 3;
+           
             int? num9 = num6 ?? num7 ?? num8;
             Console.WriteLine(num9);
             */
@@ -61,6 +62,7 @@ namespace ConsoleApp1
             b = true;
             Console.WriteLine(b.HasValue);
             */
+            
 
             // Nullable instance variable
 
@@ -83,7 +85,7 @@ namespace ConsoleApp1
             // We can easily represent who voted yes and who voted no using bool
             // But how can we represent who did not give any vote ?
 
-            /*
+            
             Console.WriteLine("Press 1 for Yes");
             Console.WriteLine("Press 2 for No");
             Console.WriteLine("Press any other for Neutral");
@@ -136,7 +138,7 @@ namespace ConsoleApp1
             Console.WriteLine("Yes: " + totalYes);
             Console.WriteLine("No: " + totalNo);
             Console.WriteLine("Neutral: " + totalNeutral);
-            */
+            
 
             Console.ReadKey();
         }

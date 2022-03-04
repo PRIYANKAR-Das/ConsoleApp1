@@ -27,7 +27,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            GenericEquals<double> obj = new GenericEquals<double>(1.01, 1);
+            GenericEquals<int> obj = new GenericEquals<int>(1, 1);
             obj.equals();
             Console.ReadKey();
         }
