@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Generic</StartupObject>
+    <StartupObject>ConsoleApp1.Properties</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="PassArray.cs" />
     <Compile Include="Present.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Sum.cs" />
