@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Inheritance</StartupObject>
+    <StartupObject>ConsoleApp1.Interface</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClass.cs" />
     <Compile Include="Array1.cs" />
     <Compile Include="calculator.cs" />
     <Compile Include="DataStructures.cs" />
     <Compile Include="Destructor.cs" />
     <Compile Include="Generic.cs" />
     <Compile Include="Inheritance.cs" />
+    <Compile Include="Interface.cs" />
     <Compile Include="Jagged.cs" />
     <Compile Include="Jagged2D.cs" />
     <Compile Include="Methods.cs" />
