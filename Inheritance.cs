@@ -15,26 +15,50 @@ namespace ConsoleApp1
 
         class B : A
         {
-            public int b = 2;
-            public int a = 5;
+            protected int b = 2;
         }
 
         class C : B
         {
-            public int c = 3;
-            public int a = 4;
+            private int c = 3;
 
             public void m()
             {
-                Console.WriteLine(base.a);
+                Console.WriteLine(a +  " " + b + " " + c);
             }
         }
 
+        class D
+        {
+            internal int d = 4;
+        }
+
+        class E : D
+        {
+            private protected int e = 5;
+        }
+
+        class F : E
+        {
+            public void m()
+            {
+                Console.WriteLine(e);
+            }
+        }
         static void Main(string[] args)
         {
             C obj = new C();
             //Console.WriteLine(obj.m());
             obj.m();
+
+            E obj2 = new E();
+            Console.WriteLine(obj2.d);
+
+            D obj3 = new D();
+            Console.WriteLine(obj3.d);
+
+            F obj4 = new F();
+            obj4.m();
 
             Console.ReadKey();
         }
