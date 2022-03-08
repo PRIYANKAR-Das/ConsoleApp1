@@ -26,6 +26,10 @@ namespace ConsoleApp1
     }
     internal class Delegates
     {
+        public void Calculate(Del f, int a, int b)
+        {
+            f(a, b);
+        }
         static void Main(string[] args)
         {
             Arithmatic o1 = new Arithmatic();
@@ -36,6 +40,11 @@ namespace ConsoleApp1
 
             f1(2, 2);
             f2.Invoke(5, 5);
+
+            Delegates o2 = new Delegates();
+
+            o2.Calculate(f1, 6, 6);
+            o2.Calculate(f2, 10, 10);
 
             Console.ReadKey();
         }
