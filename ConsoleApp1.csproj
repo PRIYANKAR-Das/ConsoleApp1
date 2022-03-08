@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Interface</StartupObject>
+    <StartupObject>ConsoleApp1.UserDefinedException</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="calculator.cs" />
     <Compile Include="DataStructures.cs" />
     <Compile Include="Destructor.cs" />
+    <Compile Include="ExceptionHandling.cs" />
     <Compile Include="Generic.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interface.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Struct.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Sum.cs" />
+    <Compile Include="UserDefinedException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
