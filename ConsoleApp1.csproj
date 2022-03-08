@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.UserDefinedException</StartupObject>
+    <StartupObject>ConsoleApp1.Delegates</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Array1.cs" />
     <Compile Include="calculator.cs" />
     <Compile Include="DataStructures.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="Destructor.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="Generic.cs" />
