@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Delegates</StartupObject>
+    <StartupObject>ConsoleApp1.File1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="Delegates.cs" />
     <Compile Include="Destructor.cs" />
     <Compile Include="ExceptionHandling.cs" />
+    <Compile Include="File1.cs" />
     <Compile Include="Generic.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interface.cs" />
